@@ -23,6 +23,11 @@ public class Main{
         } catch (IllegalArgumentException e){
             System.out.println("O valor do pedido não pode ser negativo");
         }
+        try{
+            pedidos.add(new PedidoPremium("Ioena", 9000));
+        } catch(IllegalArgumentException e){
+            System.out.println("O valor do pedido não pode ser negativo");
+        }
 
         for (Pedido p : pedidos){
             p.exibirInfo();
