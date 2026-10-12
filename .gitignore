@@ -1,0 +1,14 @@
+# --- Java ---
+*.class
+bin/
+target/
+.gradle/
+build/
+
+# --- VS Code ---
+.vscode/
+
+# --- DBeaver / Banco de Dados ---
+.metadados/
+*.log
+.dbeaver/
